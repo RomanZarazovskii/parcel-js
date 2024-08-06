@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page title</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <section class="feeback__section">
+        <h1 class="feedback__title">Feedback form</h1>
+        <form class="feedback__form">
+          <div class="input__container">
+            <label for="name"><b>Name:</b></label>
+            <input
+              type="text"
+              class="feedback__input"
+              placeholder="Enter your name"
+              id="name"
+              name="name"
+              required
+            />
+          </div>
+          <div class="input__container">
+            <label for="email"><b>Email:</b></label>
+            <input
+              type="text"
+              class="feedback__input"
+              placeholder="Enter your email"
+              id="email"
+              name="email"
+              required
+            />
+          </div>
+          <div class="input__container">
+            <label for="message"><b>Message:</b></label>
+            <textarea
+              name="message"
+              id="message"
+              class="message"
+              rows="7"
+              placeholder="Leave the comment"
+            ></textarea>
+          </div>
+        </form>
+        <button type="submit" class="feeback__button">Submit</button>
+      </section>
+    </div>
+  </body>
+</html>

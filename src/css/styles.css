@@ -1,0 +1,43 @@
+@import './base/reset.css';
+@import './base/common.css';
+
+.feedback__title {
+    margin-bottom: 10px;
+}
+
+.feedback__form {}
+
+.input__container {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.feedback__input {
+    margin-bottom: 20px;
+    padding: 7px;
+    width: 250px;
+    border: 1px gray solid;
+    border-radius: 5px;
+}
+
+.message {
+    padding: 10px;
+    width: 350px;
+    border: 1px gray solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.feeback__button {
+    padding: 7px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    background-color: orange;
+}
+
+.feeback__button:hover {
+    color: orange;
+    background-color: rgb(255, 227, 174);
+}
